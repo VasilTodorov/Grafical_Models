@@ -25,7 +25,7 @@ namespace Chart_Model
             set
             {
                 _seriesCollection = value;
-                //PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SeriesCollection)));
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SeriesCollection)));
             }
         }
 
