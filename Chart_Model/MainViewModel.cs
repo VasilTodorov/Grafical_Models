@@ -34,13 +34,13 @@ namespace Chart_Model
         public MainViewModel()
         {
             DataBase info = new DataBase();
-            info.k1 = 0.8;  //infection rate of pray
-            info.k2 = 0.09; //Hunting of pray
-            info.k3 = 0.24; //Hunting of infected
-            info.k4 = 0.09; //Growth of pray
-            info.k5 = 0.03; //death from age in hunter
-            info.k6 = 0.05; //death from age in infected
-            info.k7 = 0.01; //death from age in pray
+            info.k1 = 0.01;  //infection rate of pray
+            info.k2 = 1.6; //Hunting of pray
+            info.k3 = 0.1; //Hunting of infected
+            info.k4 = 0.1; //Growth of pray
+            info.k5 = 0.1; //death from age in hunter
+            info.k6 = 0; //death from age in infected
+            info.k7 = 0; //death from age in pray
             info.ReCalculate();
             SeriesCollection = new SeriesCollection();
 

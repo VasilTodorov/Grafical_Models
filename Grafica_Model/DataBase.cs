@@ -109,7 +109,7 @@ namespace Grafica_Model
         /// Number of key points
         /// </summary>
         public const int NUMBER_OF_POINTS = 800;
-        public const int TIME_DURATION = 2500;
+        public const int TIME_DURATION = 1200;
         /// <summary>
         /// Statistic about Pray
         /// </summary>
